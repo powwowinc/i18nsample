@@ -15,7 +15,8 @@ declare const window: any;
 export class ClientApp extends Screen {
 
     constructor( @Inject(Bootstrap) bootstrap: TBootstrap, hooks: Hooks, private translate: TranslateService) {
-    super();
+        super();
+        console.log(translations);
     bootstrap(hooks, Screens.mapping, mocks, translations);
     translate.setDefaultLang('en-US');
     moment.locale('en-US');
