@@ -1,6 +1,6 @@
 {
   "id": "__BASE__",
-  "name": "i18nsample",
+  "name": "i18ntest",
   "screens": [
     {
       "id": "loginsimplelight",
@@ -15,8 +15,5 @@
       "sourceAppId": "StrawberryTemplates"
     }
   ],
-  "startScreen": "loginsimplelight",
-  "statusbarContent": "dark",
-  "statusbarHidden": false,
-  "statusbarBackground": null
+  "startScreen": "loginsimplelight"
 }
