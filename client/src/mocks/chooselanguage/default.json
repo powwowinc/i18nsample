@@ -2,11 +2,11 @@
   "languages": [
     {
       "name": "English (US)",
-      "id": "en-us"
+      "id": "en-US"
     },
     {
       "name": "Español (México)",
-      "id": "es-mx"
+      "id": "es-MX"
     }
   ]
 }
