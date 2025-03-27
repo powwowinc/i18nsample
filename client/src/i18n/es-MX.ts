@@ -3,6 +3,6 @@ export const es_MX = {
     "Username": "MX Username",
     "Password": "MX Password",
     "Home": "MX Home",
-    "Our mission is to deliver great personal service and the best financial products to our customers – and the local communities we serve.": "Our MX mission is to deliver great personal service and the best financial products to our customers – and the local communities we serve.",
+    "homeHeader": "Our MX mission is to deliver great personal service and the best financial products to our customers – and the local communities we serve.",
     "Web<br>Resources": "MX Web <br> Resources"
 };
