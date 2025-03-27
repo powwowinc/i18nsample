@@ -38,5 +38,6 @@ export class chooselanguage_PhonePortrait extends Screen {
   chooseLanguage(lang) {
       this.translate.use(lang);
       moment.locale(lang);
+      this.dismissModal();
   }
 }
