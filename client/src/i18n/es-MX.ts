@@ -4,5 +4,5 @@ export const es_MX = {
     "Password": "MX Password",
     "Home": "MX Home",
     "Our mission is to deliver great personal service and the best financial products to our customers – and the local communities we serve.": "Our MX mission is to deliver great personal service and the best financial products to our customers – and the local communities we serve.",
-    "Web Resources": "MX Web <br> Resources"
+    "Web<br>Resources": "MX Web <br> Resources"
 };
