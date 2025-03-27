@@ -18,7 +18,10 @@
       "id": "chooselanguage",
       "name": "Choose Language",
       "sourceScreenId": "blank",
-      "sourceAppId": "default"
+      "sourceAppId": "default",
+      "modal": true,
+      "statusbarContent": null,
+      "statusbarHidden": null
     }
   ],
   "startScreen": "loginsimplelight"
