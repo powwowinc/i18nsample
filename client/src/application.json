@@ -10,5 +10,6 @@
   "offlineSupport": false,
   "description": "Test Internationalization of an App",
   "creatorId": "admin",
-  "created": 1743103531925
+  "created": 1743103531925,
+  "useMockData": true
 }

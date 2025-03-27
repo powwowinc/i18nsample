@@ -24,5 +24,8 @@
       "statusbarHidden": null
     }
   ],
-  "startScreen": "loginsimplelight"
+  "startScreen": "loginsimplelight",
+  "statusbarContent": "dark",
+  "statusbarHidden": false,
+  "statusbarBackground": null
 }
