@@ -1,15 +1,14 @@
 <ion-header data-comp-id="header.1">
     <ion-navbar color="primary" data-comp-id="navbar.1">
-        <button data-comp-id="button.1" icon-only="" ion-button="" menuToggle="">
+        <button data-comp-id="button.1" icon-only ion-button menuToggle>
             <ion-icon class="ion-ios-menu" name="menu"></ion-icon>
         </button>
-        <ion-buttons data-comp-id="buttons.1" left=""></ion-buttons>
-        <ion-title data-comp-id="title.1" text-center="">
-            <div data-comp-id="text.8" ion-text="">Home</div>
+        <ion-buttons data-comp-id="buttons.1" left></ion-buttons>
+        <ion-title data-comp-id="title.1" text-center>
+            <div data-comp-id="text.1" ion-text [translate]>Home</div>
         </ion-title>
-        <ion-buttons data-comp-id="buttons.2" right="">
-            <button (click)="action('settings')" data-comp-id="button.2" icon-only=""
-                ion-button="" style="font-size: 17px;">
+        <ion-buttons data-comp-id="buttons.2" right>
+            <button (click)="action('settings')" data-comp-id="button.2" icon-only ion-button style="font-size: 17px;">
                 <ion-icon class="ion-ios-settings"></ion-icon>
             </button>
         </ion-buttons>
@@ -18,81 +17,63 @@
 <ion-content data-comp-id="content.1" style="background-color: #009bde;">
     <ion-row data-comp-id="row.1" style="padding: 15px;">
         <ion-col data-comp-id="column.1">
-            <div color="light" data-comp-id="text.1" ion-text="" style="line-height: 20px;">Our
-                mission is to deliver great personal service and the best financial products to
-                our customers – and the local communities we serve.</div>
+            <div color="light" data-comp-id="text.2" ion-text style="line-height: 20px;" [translate]>Our
+                                mission is to deliver great personal service and the best financial products to
+                                our customers – and the local communities we serve.</div>
         </ion-col>
     </ion-row>
     <div data-comp-id="div.1" style="margin: 0 1% 0 1%;">
         <ion-row data-comp-id="row.2">
-            <ion-col (click)="action('web')" data-comp-id="column.2"
-                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
-                <ion-icon class="fa fa-globe" color="secondary" data-comp-id="icon.1"
-                    style="font-size: 24px;"></ion-icon>
-                <div color="primary" data-comp-id="text.2" ion-text=""
-                    style="font-size: 16px; margin: 10px 0 0;">Web
+            <ion-col (click)="action('web')" data-comp-id="column.2" style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                <ion-icon class="fa fa-globe" color="secondary" data-comp-id="icon.1" style="font-size: 24px;"></ion-icon>
+                <div color="primary" data-comp-id="text.3" ion-text style="font-size: 16px; margin: 10px 0 0;" [translate]>Web
                     <br>
-                    Resources
-                </div>
-            </ion-col>
-            <ion-col (click)="action('lending')" data-comp-id="column.3"
-                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
-                <ion-icon class="fa fa-money" color="secondary" data-comp-id="icon.2"
-                    style="font-size: 24px;"></ion-icon>
-                <div color="primary" data-comp-id="text.3" ion-text=""
-                    style="font-size: 16px; margin: 10px 0 0;">Lending
-                    <br>
-                    Resources
-                </div>
-            </ion-col>
-        </ion-row>
-    </div>
-    <div data-comp-id="div.2" style="margin: 0% 1% 0 1%;">
-        <ion-row data-comp-id="row.3">
-            <ion-col (click)="action('commercialSites')" data-comp-id="column.4"
-                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
-                <ion-icon class="fa fa-building" color="secondary" data-comp-id="icon.3"
-                    style="font-size: 24px;"></ion-icon>
-                <div color="primary" data-comp-id="text.4" ion-text=""
-                    style="font-size: 16px; margin: 10px 0 0;">Commercial
-                    <br>
-                    Sites
-                </div>
-            </ion-col>
-            <ion-col (click)="action('education')" data-comp-id="column.5"
-                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
-                <ion-icon class="fa fa-graduation-cap" color="secondary" data-comp-id="icon.4"
-                    style="font-size: 24px;"></ion-icon>
-                <div color="primary" data-comp-id="text.5" ion-text=""
-                    style="font-size: 16px; margin: 10px 0 0;">Employee
-                    <br>
-                    Education
-                </div>
-            </ion-col>
-        </ion-row>
-    </div>
-    <div data-comp-id="div.3" style="margin: 0 1% 0 1%;">
-        <ion-row data-comp-id="row.4">
-            <ion-col (click)="action('hR')" data-comp-id="column.6"
-                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
-                <ion-icon class="ion-ios-document" color="secondary" data-comp-id="icon.5"
-                    style="font-size: 24px;"></ion-icon>
-                <div color="primary" data-comp-id="text.6" ion-text=""
-                    style="font-size: 16px; margin: 10px 0 0;">HR
-                    <br>
-                    Documents
-                </div>
-            </ion-col>
-            <ion-col (click)="action('holidays')" data-comp-id="column.7"
-                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
-                <ion-icon class="fa fa-tree" color="secondary" data-comp-id="icon.6"
-                    style="font-size: 24px;"></ion-icon>
-                <div color="primary" data-comp-id="text.7" ion-text=""
-                    style="font-size: 16px; margin: 10px 0 0;">Bank
-                    <br>
-                    Holidays
-                </div>
-            </ion-col>
-        </ion-row>
-    </div>
-</ion-content>
+                        Resources
+                    </div>
+                </ion-col>
+                <ion-col (click)="action('lending')" data-comp-id="column.3" style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                    <ion-icon class="fa fa-money" color="secondary" data-comp-id="icon.2" style="font-size: 24px;"></ion-icon>
+                    <div color="primary" data-comp-id="text.4" ion-text style="font-size: 16px; margin: 10px 0 0;" [translate]>Lending
+                        <br>
+                            Resources
+                        </div>
+                    </ion-col>
+                </ion-row>
+            </div>
+            <div data-comp-id="div.2" style="margin: 0% 1% 0 1%;">
+                <ion-row data-comp-id="row.3">
+                    <ion-col (click)="action('commercialSites')" data-comp-id="column.4" style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                        <ion-icon class="fa fa-building" color="secondary" data-comp-id="icon.3" style="font-size: 24px;"></ion-icon>
+                        <div color="primary" data-comp-id="text.5" ion-text style="font-size: 16px; margin: 10px 0 0;" [translate]>Commercial
+                            <br>
+                                Sites
+                            </div>
+                        </ion-col>
+                        <ion-col (click)="action('education')" data-comp-id="column.5" style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                            <ion-icon class="fa fa-graduation-cap" color="secondary" data-comp-id="icon.4" style="font-size: 24px;"></ion-icon>
+                            <div color="primary" data-comp-id="text.6" ion-text style="font-size: 16px; margin: 10px 0 0;" [translate]>Employee
+                                <br>
+                                    Education
+                                </div>
+                            </ion-col>
+                        </ion-row>
+                    </div>
+                    <div data-comp-id="div.3" style="margin: 0 1% 0 1%;">
+                        <ion-row data-comp-id="row.4">
+                            <ion-col (click)="action('hR')" data-comp-id="column.6" style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                                <ion-icon class="ion-ios-document" color="secondary" data-comp-id="icon.5" style="font-size: 24px;"></ion-icon>
+                                <div color="primary" data-comp-id="text.7" ion-text style="font-size: 16px; margin: 10px 0 0;" [translate]>HR
+                                    <br>
+                                        Documents
+                                    </div>
+                                </ion-col>
+                                <ion-col (click)="action('holidays')" data-comp-id="column.7" style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                                    <ion-icon class="fa fa-tree" color="secondary" data-comp-id="icon.6" style="font-size: 24px;"></ion-icon>
+                                    <div color="primary" data-comp-id="text.8" ion-text style="font-size: 16px; margin: 10px 0 0;" [translate]>Bank
+                                        <br>
+                                            Holidays
+                                        </div>
+                                    </ion-col>
+                                </ion-row>
+                            </div>
+                        </ion-content>
