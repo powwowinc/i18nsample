@@ -1,5 +1,13 @@
 {
   "id": "__BASE__",
   "name": "i18ntest",
-  "screens": []
+  "screens": [
+    {
+      "id": "loginsimplelight",
+      "name": "Login-SimpleLight",
+      "sourceScreenId": "Login_LoginSimpleLight",
+      "sourceAppId": "StrawberryTemplates"
+    }
+  ],
+  "startScreen": "loginsimplelight"
 }

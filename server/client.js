@@ -4,4 +4,5 @@
  * @param {Vars} vars
 */
 exports.start = async (session, models, vars) => {
+    await session.screen('loginsimplelight');
 };
