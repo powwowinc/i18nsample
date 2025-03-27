@@ -35,5 +35,33 @@
       }
     },
     "id": "loginsimplelight"
+  },
+  "homeiconclassic": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {
+      "lending": {
+        "type": "action"
+      },
+      "commercialSites": {
+        "type": "action"
+      },
+      "education": {
+        "type": "action"
+      },
+      "hR": {
+        "type": "action"
+      },
+      "holidays": {
+        "type": "action"
+      },
+      "web": {
+        "type": "action"
+      },
+      "settings": {
+        "type": "action"
+      }
+    },
+    "id": "homeiconclassic"
   }
 }

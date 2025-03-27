@@ -7,6 +7,12 @@
       "name": "Login-SimpleLight",
       "sourceScreenId": "Login_LoginSimpleLight",
       "sourceAppId": "StrawberryTemplates"
+    },
+    {
+      "id": "homeiconclassic",
+      "name": "HomeIconClassic",
+      "sourceScreenId": "Home_homeiconclassic",
+      "sourceAppId": "StrawberryTemplates"
     }
   ],
   "startScreen": "loginsimplelight"
