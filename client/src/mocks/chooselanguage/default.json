@@ -1,1 +1,12 @@
-{}
+{
+  "languages": [
+    {
+      "name": "English (US)",
+      "id": "en-us"
+    },
+    {
+      "name": "Español (México)",
+      "id": "es-mx"
+    }
+  ]
+}

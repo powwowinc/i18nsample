@@ -67,7 +67,22 @@
   "chooselanguage": {
     "type": "object",
     "comment": "Blank",
-    "properties": {},
+    "properties": {
+      "languages": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
     "id": "chooselanguage"
   }
 }
