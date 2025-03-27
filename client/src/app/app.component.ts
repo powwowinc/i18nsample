@@ -10,18 +10,17 @@ import { TranslateService } from '@ngx-translate/core';
 declare const window: any;
 
 @Component({
-  templateUrl: 'app.html'
+    templateUrl: 'app.html'
 })
 export class ClientApp extends Screen {
 
     constructor( @Inject(Bootstrap) bootstrap: TBootstrap, hooks: Hooks, private translate: TranslateService) {
         super();
-        console.log(translations);
-    bootstrap(hooks, Screens.mapping, mocks, translations);
-    translate.setDefaultLang('en-US');
-    moment.locale('en-US');
-    this.checkDeviceLang();
-  }
+        bootstrap(hooks, Screens.mapping, mocks, translations);
+        translate.setDefaultLang('en-US');
+        moment.locale('en-US');
+        this.checkDeviceLang();
+    }
 
     checkDeviceLang() {
         let lang = window.navigator.language;
