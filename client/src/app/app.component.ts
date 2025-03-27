@@ -16,7 +16,7 @@ export class ClientApp extends Screen {
 
     constructor( @Inject(Bootstrap) bootstrap: TBootstrap, hooks: Hooks, private translate: TranslateService) {
     super();
-    bootstrap(hooks, Screens.mapping, mocks);
+    bootstrap(hooks, Screens.mapping, mocks, translations);
     translate.setDefaultLang('en-US');
     moment.locale('en-US');
     this.checkDeviceLang();
