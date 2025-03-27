@@ -1,0 +1,16 @@
+{
+  "name": "i18ntest",
+  "version": "6.1.2",
+  "private": true,
+  "description": "PowWow transformation",
+  "main": "start.js",
+  "scripts": {
+    "start": "nodemon start.js | bunyan -o short --color"
+  },
+  "dependencies": {
+    "smartux-connect": "/usr/share/powwowstudio/dataStore/smartux-connect/6.1.2"
+  },
+  "engines": {
+    "node": "12"
+  }
+}

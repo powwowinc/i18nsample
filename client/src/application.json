@@ -1,0 +1,14 @@
+{
+  "name": "i18ntest",
+  "defaultLayout": "PhonePortrait",
+  "previewToken": "16c80ade",
+  "theme": "Anchor",
+  "clientVersion": "6.1.2",
+  "hidden": false,
+  "isBuiltInTemplate": false,
+  "disableSideMenu": false,
+  "offlineSupport": false,
+  "description": "Test Internationalization of an App",
+  "creatorId": "admin",
+  "created": 1743103531925
+}
