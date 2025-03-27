@@ -7,6 +7,10 @@
     {
       "name": "Español (México)",
       "id": "es-MX"
+    },
+    {
+      "name": "Français",
+      "id": "fr-FR"
     }
   ]
 }
