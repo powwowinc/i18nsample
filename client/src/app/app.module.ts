@@ -6,11 +6,14 @@ import { Screens } from "./app.screens";
 import { ClientApp } from "./app.component";
 import { Hooks } from "./app.hooks";
 import { GlobalData } from "./globaldata.service";
+import { TranslateModule } from '@ngx-translate/core';
+
 @NgModule({
     bootstrap: [IonicApp],
     declarations: [ClientApp, ...Screens.declarations],
     entryComponents: Screens.declarations,
     imports: [
+        TranslateModule.forRoot({}),
         IonicModule.forRoot(ClientApp, config.ionic),
         SmartUxClient,
         ComponentsModule
@@ -18,6 +21,9 @@ import { GlobalData } from "./globaldata.service";
     providers: [
         Hooks,
         GlobalData
+    ],
+    exports: [
+        TranslateModule
     ]
 })
 export class AppModule {
