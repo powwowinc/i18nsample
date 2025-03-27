@@ -2,6 +2,7 @@ import { Component, Inject } from '@angular/core';
 import { Screen } from './screen';
 import { Screens } from './app.screens';
 import * as mocks from 'mocks/index';
+import * as moment from 'moment-timezone';
 import { Hooks } from './app.hooks';
 import { Bootstrap, TBootstrap } from 'smartux-client';
 import * as translations from '../i18n';
