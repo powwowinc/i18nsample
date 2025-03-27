@@ -12,6 +12,7 @@ export class chooselanguage_PhonePortrait extends Screen {
     data: any;
 
     constructor(private translate: TranslateService) {
+        super();
     }
 
   ngOnInit(): void {
