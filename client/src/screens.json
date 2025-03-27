@@ -13,6 +13,12 @@
       "name": "HomeIconClassic",
       "sourceScreenId": "Home_homeiconclassic",
       "sourceAppId": "StrawberryTemplates"
+    },
+    {
+      "id": "chooselanguage",
+      "name": "Choose Language",
+      "sourceScreenId": "blank",
+      "sourceAppId": "default"
     }
   ],
   "startScreen": "loginsimplelight"

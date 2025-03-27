@@ -63,5 +63,11 @@
       }
     },
     "id": "homeiconclassic"
+  },
+  "chooselanguage": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {},
+    "id": "chooselanguage"
   }
 }
