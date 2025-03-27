@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Screen } from 'app/screen';
+import * as moment from 'moment-timezone';
+import { TranslateService } from '@ngx-translate/core';
 declare var window: any;
 
 @Component({
@@ -7,7 +9,10 @@ declare var window: any;
   templateUrl: 'chooselanguage.html'
 })
 export class chooselanguage_PhonePortrait extends Screen {
-  data: any;
+    data: any;
+
+    constructor(private translate: TranslateService) {
+    }
 
   ngOnInit(): void {
     super.ngOnInit();
@@ -27,5 +32,10 @@ export class chooselanguage_PhonePortrait extends Screen {
     // true - handle the event in App Hooks
     // false - stop the event propogation
       return true;
+  }
+
+  chooseLanguage(lang) {
+      this.translate.use(lang);
+      moment.locale(lang);
   }
 }
