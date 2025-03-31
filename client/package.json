@@ -16,9 +16,14 @@
     "build:vendor": "cd node_modules/smartux-client/build && node bundle.js --path ../../.. --module vendor && cd ../../..",
     "build:main": "cd node_modules/smartux-client/build && node bundle.js --path ../../.. --module main --copy-assets --styles && cd ../../..",
     "build:styles": "cd node_modules/smartux-client/build && node styles.js --path ../../..  && cd ../../..",
-    "postinstall": "cd node_modules/components && npm install && cd ../custom-components && npm install"
+    "postinstall": "cd node_modules/components && npm install && cd ../custom-components && npm install",
+    "extract": "node node_modules/@biesbjerg/ngx-translate-extract/bin/cli.jsn --input ./src/app/pages --output ./src/i18n/*.json --clean --sort --format namespaced-json"
+
   },
   "engines": {
     "node": ">=12"
+  },
+  "devDependencies": {
+    "@biesbjerg/ngx-translate-extract": "^2.3.4"
   }
 }

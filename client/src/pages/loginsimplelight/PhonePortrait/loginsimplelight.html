@@ -1,7 +1,7 @@
 <ion-content class="content-light" data-comp-id="content.1">
     <div data-comp-id="div.1" style="padding: 20% 15% 10%; box-shadow: 0 10px 10px -10px #000000;" text-center>
         <ion-icon class="ion-ios-information-circle" color="secondary" data-comp-id="icon.1" style="font-size: 64px;"></ion-icon>
-        <div data-comp-id="text.1" ion-text style="margin: 20px 0px; font-size: 18px; font-weight: 300;" [translate]>Company Name</div>
+        <div data-comp-id="text.1" ion-text style="margin: 20px 0px; font-size: 18px; font-weight: 300;" translate>Company Name</div>
     </div>
     <div data-comp-id="div.2" style="padding: 0px 15%; margin: 40px 0px;" text-center>
         <ion-row *ngIf="data.errorMessage" data-comp-id="row.1" style="border-top: 1px solid #009bde; border-right: 1px solid #009bde; border-bottom: 1px solid #009bde; border-left: 1px solid #009bde; margin: 20px 0px;">
@@ -14,17 +14,17 @@
                 <ion-list data-comp-id="list.1" no-lines>
                     <form data-comp-id="form.1">
                         <ion-item data-comp-id="input.1" style="padding: 0px 0px 0px 5px; border-top: 1px solid rgb(221,221,221); border-right: 1px solid rgb(221,221,221); border-bottom: 1px solid rgb(221,221,221); border-left: 1px solid rgb(221,221,221);">
-                            <ion-label color="contrast" stacked [translate]>Username</ion-label>
+                            <ion-label color="contrast" stacked translate>Username</ion-label>
                             <ion-input [(ngModel)]="data.username" autocapitalize="off" autocorrect="off" name="username" placeholder="Type here..." type="text"></ion-input>
                         </ion-item>
                         <ion-item data-comp-id="input.2" style="margin: 10px 0px; padding: 0px 0px 0px 5px; border-top: 1px solid rgb(221,221,221); border-right: 1px solid rgb(221,221,221); border-bottom: 1px solid rgb(221,221,221); border-left: 1px solid rgb(221,221,221);">
-                            <ion-label color="contrast" stacked [translate]>Password</ion-label>
+                            <ion-label color="contrast" stacked translate>Password</ion-label>
                             <ion-input [(ngModel)]="data.password" name="password" placeholder="Type here..." type="password"></ion-input>
                         </ion-item>
                         <ion-row data-comp-id="row.3">
                             <ion-col class="button-col" data-comp-id="column.3" text-center>
                                 <button (click)="go('homeiconclassic')" block color="primary" data-comp-id="button.1" ion-button>
-                                    <span [translate]>Login</span>
+                                    <span translate>Login</span>
                                 </button>
                             </ion-col>
                         </ion-row>
